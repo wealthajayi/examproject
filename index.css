@@ -1,0 +1,644 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+     width: 60px;
+    height: 60px;
+    border: none;
+    background-image: url(/assets/images/IMG-20260725-WA0012.jpg);
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+}
+
+header{
+    height: 120px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    background-color: #FF8FCB;
+    box-shadow: 2px 2px 1px black;
+}
+
+header a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+header nav a{
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+ }
+
+ header nav a:hover{
+    color: white;
+
+ }
+ 
+.heropage {
+    height: 100vh;
+    background-image: url("/assets/images/heropage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 80px;
+    gap: 20px;
+    justify-content: space-between;
+    height: 150vh;
+}
+
+.heropage div{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heropage span{
+    color: #32333c;
+    font-size: 90px;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+} 
+ .heropage .span2{
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+}
+.heropage .span3{
+    color: #754EF9;
+    font-size: 45px;
+    font-family: Poppins, sans-serif;
+}
+
+h1{
+    font-family: Poppins, sans-serif;
+    font-size: 60px;
+    color: bflack;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.aboutme p{
+    color: #2F0A0A;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    max-width: 85ch;
+    margin: auto;
+    text-align: center;
+}
+.aboutme span{
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+
+}
+.aboutme .am{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    max-width: 10ch;
+}
+.amp{
+ display: grid;
+   display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    padding: 150px;
+}
+
+.aboutleft i{
+    font-size: 20px;
+}
+
+.aboutleft .dob{
+    font-size: 20px;
+}
+.aboutleft .Phone{
+    font-size: 20px;
+}
+
+.aboutleft .Email{
+    font-size: 20px;
+}
+
+.aboutleft .loca{
+    font-size: 20px;
+}
+
+.aboutleft .first{
+    font-size: 21px;
+    color: #FF8FCB;
+}
+
+.aboutleft .second{
+    font-size: 21px;
+    color: #FF8FCB;
+}
+
+.aboutleft .third{
+    font-size: 21px;
+    color: #FF8FCB;
+}
+
+.aboutleft .fourth{
+    font-size: 21px;
+    color: #FF8FCB;
+}
+
+.heropage .divright img{
+    height: 120vh;
+}
+
+
+
+.aboutleft .hi{
+    display: block;
+    text-align:justify;
+}
+
+.aboutleft .am{
+    display: grid;
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    max-width: 60ch;
+    margin-top: 20px;
+}
+
+.aboutleft .icons{
+    display: grid;
+}
+.aboutme{
+    background-color: white;
+}
+
+.aboutright{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 30px;
+    justify-content: end;
+}
+
+.test{
+    display: flex;
+    font-size: 10px;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.aboutright progress{
+    margin-top: 0;
+    height: 10px;
+}
+
+.services h2{
+    font-family: Poppins, sans-serif;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.services p{
+    color: #2F0A0A;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    max-width: 85ch;
+    margin: auto;
+    text-align: center;
+}
+
+.services{
+    background-color: whitesmoke;
+    
+}
+
+.sevices .cd{
+     background: white;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.services i{
+    font-size: 90px;
+}
+
+.cards{
+      background-color: #F3F4F6;
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 150px;
+    gap: 30px;
+    box-shadow: 2px 2px 1px black
+    \;
+}
+
+.services span{
+    font-size: 20px;
+    color: black;
+    margin-top: 25px;
+    max-width: 20ch;
+    text-align: center;
+}
+.cd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     background-color: white;
+}
+
+.pic{
+    height: 70vh;
+    background: linear-gradient(to right, palevioletred, pink, white);
+    text-align: center;
+    
+}
+
+.pic h2{
+    font-family: Poppins, sans-serif;
+    font-size: 60px;
+    color: bflack;
+    text-align: center;
+    padding: 100px;
+}
+
+.pic p{
+      color: #2F0A0A;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    max-width: 80ch;
+    margin: auto;
+    text-align: center;
+}
+
+ .pic button{
+    background-color: #FF8FCb;
+    justify-self: center;
+    margin: 20px 8px 0;
+    border-radius: 10px;
+    border: none; 
+    outline: 0;
+    padding: 15px;
+    margin-top: 20px;
+}
+.pic button:hover{
+    transform: translateY(-5px);
+    background-color: #ffb7de;
+}
+
+.portfolio{
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.portfolio h2{
+    grid-column: 1 / -1;
+    font-family: Poppins, sans-serif;
+    font-size: 45px;
+    color: black;
+    margin-top: 80px;
+    padding: 10px;
+    margin-left: 100px;
+    font-weight: 700;
+     align-items: center;
+    justify-content: center;
+}
+
+.portfolio p{
+    grid-column: 1 / -1;
+     font-family: Poppins, sans-serif;
+      color: black;
+    font-size: 20px;
+    margin-left: 100px;
+
+}
+
+.portfolio .projects{
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 40px 100px;
+}
+
+.portfolio .projects img{
+    width: 400px;
+    height: 70vh;
+    margin: 0 auto
+}
+
+.portfolio + button{
+    display: block;
+    margin: 20px auto 0;
+}
+
+
+ button{
+    background-color: #FF8FCb;
+    border-radius: 10px;
+    border: none; 
+    outline: 0;
+    padding: 15px;
+    margin-top: 20px;
+    justify-self: center;
+}
+
+.contact{
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+.contact h2{
+    font-family: Poppins, sans-serif;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    padding: 50px;   
+}
+
+.contact p{
+     color: #2F0A0A;
+    font-size: 20px;
+    font-family: Poppins, sans-serif;
+    margin: auto;
+    text-align: center;
+}
+
+.c{
+      background-color: #F3F4F6;
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 150px;
+    gap: 30px;
+}
+
+.contact .last{
+       background: white;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.last i{
+     font-size: 30px;
+    align-self: center;
+}
+
+.contact .form{
+    display: grid;
+    gap: 8px;
+    width: min(420px, calc(100% - 32px));
+    margin: 24px auto;
+    font-family: Poppins, sans-serif;
+}
+
+.contact .form input,
+.contact .form textarea{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    font: inherit;
+}
+
+.contact .form textarea{
+    resize: vertical;
+}
+
+.contact .form button{
+    justify-self: start;
+}
+
+footer{
+    background-color: #FF8FCB;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    padding: 30px 20px;
+}
+
+footer a{
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+p{
+    color: #2F0A0A;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    max-width: 85ch;
+    margin: auto;
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+footer i{
+    font-size: 50px;
+    color: black;
+    margin-top: 90px;
+}
+
+.me{
+     color: #2F0A0A;
+    font-size: 18px;
+    font-family: Poppins, sans-serif;
+    max-width: 85ch;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+@media(max-width:769px){
+    header{
+        height: auto;
+        min-height: 80px;
+        padding: 12px 16px;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .logo{
+        width: 48px;
+        height: 48px;
+    }
+
+    nav{
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 16px;
+        font-size: 13px;
+    }
+
+    .heropage{
+        height: auto;
+        min-height: calc(100svh - 80px);
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 24px;
+        text-align: center;
+    }
+
+    .heropage div{
+        height: auto;
+        max-width: 100%;
+    }
+
+    .heropage span{
+        font-size: 38px;
+        overflow-wrap: anywhere;
+    }
+
+    .heropage .span2{
+        font-size: 14px;
+    }
+
+    .heropage .span3{
+        font-size: 30px;
+    }
+
+    .heropage .divright img{
+        width: min(80vw, 340px);
+        height: auto;
+        max-height: 55vh;
+        object-fit: contain;
+    }
+
+    h1,
+    .services h2,
+    .pic h2,
+    .contact h2{
+        font-size: 38px;
+        margin-top: 40px;
+        padding: 24px 16px;
+    }
+
+    .aboutme p,
+    .services p,
+    .pic p,
+    .contact p{
+        width: calc(100% - 32px);
+        font-size: 16px;
+    }
+
+    .amp{
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 40px;
+    }
+
+    .aboutleft,
+    .aboutright{
+        width: 100%;
+        min-width: 0;
+    }
+
+    .aboutleft .am{
+        max-width: none;
+    }
+
+    .aboutleft .icons{
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        gap: 8px 12px;
+        overflow-wrap: anywhere;
+    }
+
+    .aboutleft .icons i{
+        grid-row: span 2;
+    }
+
+    .aboutright{
+        font-size: 18px;
+    }
+
+    .test{
+        justify-content: space-between;
+    }
+
+    .cards{
+        grid-template-columns: 1fr;
+        padding: 30px 20px;
+        gap: 20px;
+    }
+
+    .cd{
+        padding: 24px 16px;
+    }
+
+    .pic{
+        height: auto;
+        padding: 16px 0 32px;
+    }
+
+    .portfolio{
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio h2,
+    .portfolio p{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .portfolio h2{
+        font-size: 34px;
+        margin-top: 40px;
+    }
+
+    .portfolio .projects{
+        grid-template-columns: 1fr;
+        padding: 24px 20px;
+        gap: 20px;
+    }
+
+    .portfolio .projects img{
+        width: 100%;
+        height: auto;
+        max-height: 70vh;
+        object-fit: contain;
+    }
+
+    .c{
+        grid-template-columns: 1fr;
+        padding: 30px 20px;
+        gap: 16px;
+    }
+
+    .contact .form input,
+    .contact .form textarea{
+        width: 100%;
+    }
+
+    footer i{
+        margin-top: 32px;
+    }
+}
